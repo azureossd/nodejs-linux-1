@@ -1,0 +1,53 @@
+trigger:
+  branches:
+    include:
+    - master
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: 10.x
+      displayName: Install Node.js
+    - task: CmdLine@2
+      displayName: npm install and build
+      inputs:
+        script: >
+          npm install
+
+          npm i yarn
+
+          cd packages/web
+
+          yarn install
+
+          npm run build
+    - task: ArchiveFiles@2
+      inputs:
+        rootFolderOrFile: $(Build.SourcesDirectory)/packages/web
+        includeRootFolder: true
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: $(Build.ArtifactStagingDirectory)
+        ArtifactName: drop
+        publishLocation: Container
+    - task: AzureRmWebAppDeployment@4
+      inputs:
+        ConnectionType: AzureRM
+        azureSubscription: Microsoft Azure Internal Consumption(fbb69af7-f9a0-4e69-ba10-b4eb445e3963)
+        appType: webAppLinux
+        WebAppName: reactnativetestapp
+        deployToSlotOrASE: true
+        ResourceGroupName: reactnativetestapp
+        SlotName: production
+        packageForLinux: $(Build.ArtifactStagingDirectory)/**/*.zip
+        RuntimeStack: NODE|12-lts
+        StartupCommand: pm2 serve --no-daemon ./web/build
+
