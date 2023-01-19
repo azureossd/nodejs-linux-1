@@ -48,6 +48,6 @@ stages:
         ResourceGroupName: reactnativetestapp
         SlotName: production
         packageForLinux: $(Build.ArtifactStagingDirectory)/**/*.zip
-        RuntimeStack: NODE|12-lts
+        RuntimeStack: NODE|14-lts
         StartupCommand: pm2 serve --no-daemon ./web/build
 
