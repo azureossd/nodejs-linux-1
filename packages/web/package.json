@@ -30,7 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "babel-plugin-react-native-web": "0.12.1",
+    "babel-plugin-react-native-web": "0.21.2",
     "concurrently": "9.2.1",
     "react-app-rewired": "2.1.5",
     "typescript": "5.9.3"
