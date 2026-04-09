@@ -10169,10 +10169,10 @@ react-is@^18.0.0, react-is@^18.3.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
-react-is@^19.2.4:
-  version "19.2.4"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.4.tgz#a080758243c572ccd4a63386537654298c99d135"
-  integrity sha512-W+EWGn2v0ApPKgKKCy/7s7WHXkboGcsrXE+2joLyVxkbyVQfO3MUEaUQDHoSmb8TFFrSKYa9mw64WZHNHSDzYA==
+react-is@^19.2.5:
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.5.tgz#7e7b54143e9313fed787b23fd4295d5a23872ad9"
+  integrity sha512-Dn0t8IQhCmeIT3wu+Apm1/YVsJXsGWi6k4sPdnBIdqMVtHtv0IGi6dcpNpNkNac0zB2uUAqNX3MHzN8c+z2rwQ==
 
 react-native-web@0.21.2:
   version "0.21.2"
@@ -10294,12 +10294,12 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-test-renderer@19.2.4:
-  version "19.2.4"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-19.2.4.tgz#c26f93fc8da5409472626cd873d005a1974df3ff"
-  integrity sha512-Ttl5D7Rnmi6JGMUpri4UjB4BAN0FPs4yRDnu2XSsigCWOLm11o8GwRlVsh27ER+4WFqsGtrBuuv5zumUaRCmKw==
+react-test-renderer@19.2.5:
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-19.2.5.tgz#0fbfb2796d09b0c133563e9468a45d77e13ffe00"
+  integrity sha512-kwViRpdISMTpcpy5B6TSewfJzRjnajihRaj57ZmOWKD+SPN6k9LUM13O0pfOuW8ir6B6OOiAXwCRqOoVxRNykA==
   dependencies:
-    react-is "^19.2.4"
+    react-is "^19.2.5"
     scheduler "^0.27.0"
 
 react@19.2.4:
