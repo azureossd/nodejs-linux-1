@@ -8297,9 +8297,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.13, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
-  version "4.17.23"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
-  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 loose-envify@^1.0.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
@@ -10169,10 +10169,10 @@ react-is@^18.0.0, react-is@^18.3.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
-react-is@^19.2.4:
-  version "19.2.4"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.4.tgz#a080758243c572ccd4a63386537654298c99d135"
-  integrity sha512-W+EWGn2v0ApPKgKKCy/7s7WHXkboGcsrXE+2joLyVxkbyVQfO3MUEaUQDHoSmb8TFFrSKYa9mw64WZHNHSDzYA==
+react-is@^19.2.5:
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.5.tgz#7e7b54143e9313fed787b23fd4295d5a23872ad9"
+  integrity sha512-Dn0t8IQhCmeIT3wu+Apm1/YVsJXsGWi6k4sPdnBIdqMVtHtv0IGi6dcpNpNkNac0zB2uUAqNX3MHzN8c+z2rwQ==
 
 react-native-web@0.21.2:
   version "0.21.2"
@@ -10294,12 +10294,12 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-test-renderer@19.2.4:
-  version "19.2.4"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-19.2.4.tgz#c26f93fc8da5409472626cd873d005a1974df3ff"
-  integrity sha512-Ttl5D7Rnmi6JGMUpri4UjB4BAN0FPs4yRDnu2XSsigCWOLm11o8GwRlVsh27ER+4WFqsGtrBuuv5zumUaRCmKw==
+react-test-renderer@19.2.5:
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-19.2.5.tgz#0fbfb2796d09b0c133563e9468a45d77e13ffe00"
+  integrity sha512-kwViRpdISMTpcpy5B6TSewfJzRjnajihRaj57ZmOWKD+SPN6k9LUM13O0pfOuW8ir6B6OOiAXwCRqOoVxRNykA==
   dependencies:
-    react-is "^19.2.4"
+    react-is "^19.2.5"
     scheduler "^0.27.0"
 
 react@19.2.5:
