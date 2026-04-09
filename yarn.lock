@@ -9934,10 +9934,10 @@ react-app-rewired@2.2.1:
   dependencies:
     semver "^5.6.0"
 
-react-art@19.2.4:
-  version "19.2.4"
-  resolved "https://registry.yarnpkg.com/react-art/-/react-art-19.2.4.tgz#665cec2a24a2c7f4c06925b68caabe85b0e5bd39"
-  integrity sha512-Z52Jstmrx6FvzAeESkVzDGn7yzqdmFbbf1NWXk+j8BDibb51+WBlEARgWPkb0cKzX7aITSenIKdFjPg8uJJJ3Q==
+react-art@19.2.5:
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/react-art/-/react-art-19.2.5.tgz#9882205262944f01d438a66e3cdc58fda921b528"
+  integrity sha512-d+gE1g5xH9kI79kx8FlOrwSS/F2mCUoZk1JjIxavQOatlqa00RpvtyKsJXphBddnd7clTiddTIR44XkmUs6BTw==
   dependencies:
     art "^0.10.1"
     create-react-class "^15.6.2"
