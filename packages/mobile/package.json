@@ -16,7 +16,7 @@
   "dependencies": {
     "components": "0.1.0",
     "react": "19.2.5",
-    "react-native": "0.85.1"
+    "react-native": "0.85.2"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "3.2.0",
