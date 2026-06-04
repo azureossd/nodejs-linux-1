@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "react": "19.2.6",
+    "react": "19.2.7",
     "react-art": "19.2.6",
     "react-dom": "19.2.6",
     "react-native-web": "0.21.2",
