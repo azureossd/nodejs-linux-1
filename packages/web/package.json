@@ -33,6 +33,6 @@
     "babel-plugin-react-native-web": "0.21.2",
     "concurrently": "10.0.3",
     "react-app-rewired": "2.2.1",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   }
 }
