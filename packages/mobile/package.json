@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "components": "0.1.0",
-    "react": "19.2.7",
+    "react": "19.2.8",
     "react-native": "0.86.0"
   },
   "devDependencies": {
