@@ -10255,14 +10255,14 @@ react-app-rewired@2.2.1:
   dependencies:
     semver "^5.6.0"
 
-react-art@19.2.8:
-  version "19.2.8"
-  resolved "https://registry.yarnpkg.com/react-art/-/react-art-19.2.8.tgz#73bb0caf2d2af4927e0f6a723c50d18e1564e316"
-  integrity sha512-JsOtOXVpH2JifugGRjCNC9pgTlyc9Db0qTEu8ws+rq4TgeTvdC86nJyef7oNEUd6vcoiTHyHIlRso5gChS7h/Q==
+react-art@19.3.0:
+  version "19.3.0"
+  resolved "https://registry.yarnpkg.com/react-art/-/react-art-19.3.0.tgz#748834e553308d5176f2daf02215f6e65c6c1a5d"
+  integrity sha512-yuPKELioHRUnxJXO4dhPutxQBDMqv83wxmCROyXwjXEfAhm6in3mMeYb9QaeXlAJ0Cg3GEkuCF+4FcY2VMT1TA==
   dependencies:
     art "^0.10.1"
     create-react-class "^15.6.2"
-    scheduler "^0.27.0"
+    scheduler "^0.28.0"
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
@@ -10788,7 +10788,7 @@ saxes@^5.0.1:
   dependencies:
     xmlchars "^2.2.0"
 
-scheduler@0.27.0, scheduler@^0.27.0:
+scheduler@0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.27.0.tgz#0c4ef82d67d1e5c1e359e8fc76d3a87f045fe5bd"
   integrity sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==
