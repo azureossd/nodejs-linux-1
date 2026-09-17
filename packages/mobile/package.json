@@ -25,7 +25,7 @@
     "babel-jest": "30.5.1",
     "eslint": "10.10.0",
     "jest": "30.5.1",
-    "react-test-renderer": "19.2.8",
+    "react-test-renderer": "19.3.0",
     "typescript": "7.0.2"
   },
   "jest": {
